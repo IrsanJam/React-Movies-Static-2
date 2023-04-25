@@ -17,6 +17,19 @@ body {
   @apply h-[28rem] w-full;
 }
 
+.green {
+  @apply bg-green-800 text-slate-300 duration-300 ease-in-out;
+}
+.fex {
+  @apply flex;
+}
+
+.idden {
+  @apply hidden;
+}
+.green-muda {
+  @apply bg-green-50 text-slate-500;
+}
 .aturan-box {
   @apply mx-auto p-5;
 }
