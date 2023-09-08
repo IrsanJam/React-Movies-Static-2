@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(51 65 85);
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.mark {
+  @apply h-[28rem] w-full bg-basefont p-8;
+}
+
+.mirk {
+  @apply h-[28rem] w-full;
+}
+
+.green {
+  @apply bg-green-800 text-slate-300 duration-300 ease-in-out;
+}
+.fex {
+  @apply flex;
+}
+
+.idden {
+  @apply hidden;
+}
+.green-muda {
+  @apply bg-green-50 text-slate-500;
+}
+.aturan-box {
+  @apply mx-auto p-5;
+}
+
+.nav-ubah-hitam {
+  @apply duration-500 ease-in-out lg:bg-transparent lg:text-basefont;
+}
+.nav-ubah-putih {
+  @apply bg-basecolor text-[15px]  duration-500 ease-in-out lg:bg-basecolor lg:text-black lg:opacity-60 lg:backdrop-blur-md;
+}
+.back-home {
+  @apply block lg:block;
+}
